@@ -1,0 +1,50 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-side {
+    background-image: url('Group 22.png') !important; 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 50%;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pisocial {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.terms-message {
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+}
